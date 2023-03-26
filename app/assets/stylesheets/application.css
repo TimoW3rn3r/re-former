@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+.error_explanation {
+  padding: 8px 4px;
+  margin-bottom: 8px;
+  background-color: red;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+}
+
+.field_with_errors input {
+  border-color: red;
+}
