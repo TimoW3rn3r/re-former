@@ -1,12 +1,12 @@
 <form accept-charset="UTF-8" action="/users" method="post">
   <label for="username">Username:</label>
-  <input type="text" id="username" name="username">
+  <input type="text" id="username" name="user[username]">
 
   <label for="email">Email:</label>
-  <input type="email" id="email" "email" placeholder="you@example.com">
+  <input type="email" id="email" name="user[email]" placeholder="you@example.com">
 
   <label for="password">Password:</label>
-  <input type="password" id="password" name="password">
+  <input type="password" id="password" name="user[password]">
 
   <button type="submit">Submit</button>
 </form>
